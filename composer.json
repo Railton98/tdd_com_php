@@ -1,0 +1,18 @@
+{
+    "name": "tecks/query-builder-tdd",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Railton98",
+            "email": "railtonleal98@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "QueryBuilder\\": "src/"
+        }
+    }
+}
