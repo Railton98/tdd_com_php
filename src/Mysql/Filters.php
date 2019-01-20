@@ -15,7 +15,7 @@ class Filters
 
     public function orderBy(string $field, string $order)
     {
-        $this->sql[] = 'ORDER BY created desc';
+        $this->sql[] = "ORDER BY $field $order";
         return $this;
     }
 
